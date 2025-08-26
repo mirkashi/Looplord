@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mir Kashif - Full Stack Developer Portfolio</title>
+    <meta name="description" content="John Developer - Full Stack Developer specializing in modern web technologies. View my portfolio, services, and get in touch for your next project.">
+    <meta name="keywords" content="full stack developer, web developer, portfolio, JavaScript, React, Node.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Loop-Lord</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Loop Developer</h1>
+            <p class="hero-profession">Full Stack Developer & UI/UX Designer</p>
+            <p class="hero-tagline">I create beautiful, functional, and user-friendly digital experiences that bring ideas to life</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Passionate developer with 2+ years of experience creating digital solutions</p>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><rect width='300' height='300' fill='%23f0f0f0'/><circle cx='150' cy='120' r='50' fill='%23ddd'/><rect x='100' y='180' width='100' height='80' rx='40' fill='%23ddd'/><text x='150' y='280' text-anchor='middle' fill='%23999' font-size='14'>Profile Photo</text></svg>" alt="John Developer Profile">
+            </div>
+            <div class="about-text">
+                <h3>Hello! I'm Mir Kashif, nicknamed (Loop-Lord), a passionate Full Stack Developer</h3>
+                <p>With over 2+ years of experience in web development, I specialize in creating modern, responsive, and user-friendly applications. I'm passionate about clean code, innovative solutions, and staying up-to-date with the latest technologies.</p>
+                <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and community engagement.</p>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">⚛️</div>
+                        <h4>React/Next.js</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🟢</div>
+                        <h4>Node.js</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🟢</div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🎨</div>
+                        <h4>UI/UX Design</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">☁️</div>
+                        <h4>Cloud Services</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title">My Portfolio</h2>
+        <p class="section-subtitle">Here are some of my recent projects that showcase my skills and creativity</p>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Task Management App</h3>
+                    <p class="project-description">A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Weather Dashboard</h3>
+                    <p class="project-description">A beautiful weather dashboard with interactive charts, location-based forecasts, and responsive design for all devices.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <h2 class="section-title">My Services</h2>
+        <p class="section-subtitle">I offer a range of services to help bring your digital ideas to life</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-description">Custom web applications built with modern technologies like React, Vue.js, and Node.js. Responsive, fast, and SEO-optimized.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3 class="service-title">Mobile Development</h3>
+                <p class="service-description">Cross-platform mobile apps using React Native and Flutter. Native performance with code reusability across platforms.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="service-description">User-centered design approach creating intuitive interfaces and seamless user experiences that convert visitors into customers.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3 class="service-title">Performance Optimization</h3>
+                <p class="service-description">Speed up your existing applications with performance audits, code optimization, and modern deployment strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <h2 class="section-title">Latest Blog Posts</h2>
+        <p class="section-subtitle">Sharing insights, tutorials, and thoughts on web development and technology</p>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <div class="blog-date">March 15, 2024</div>
+                    <h3 class="blog-title">Modern React Patterns You Should Know</h3>
+                    <p class="blog-excerpt">Explore the latest React patterns and best practices that will make your code more maintainable and efficient...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <div class="blog-date">March 8, 2024</div>
+                    <h3 class="blog-title">Building Scalable APIs with Node.js</h3>
+                    <p class="blog-excerpt">Learn how to create robust and scalable REST APIs using Node.js, Express, and MongoDB with proper error handling...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <div class="blog-date">February 28, 2024</div>
+                    <h3 class="blog-title">The Future of Web Development</h3>
+                    <p class="blog-excerpt">Discussing upcoming trends and technologies that will shape the future of web development in the next few years...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's discuss your project and bring your ideas to life</p>
+        <div class="contact-content">
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>New York, NY</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>john@developer.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">💻</a>
+                    <a href="#" class="social-link" title="LinkedIn">💼</a>
+                    <a href="#" class="social-link" title="Twitter">🐦</a>
+                    <a href="#" class="social-link" title="Instagram">📷</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="#blog" class="footer-link">Blog</a>
+            <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <p>&copy; 2025 Loop-Lord Developer. All rights reserved.</p>
+        <p>Made with ❤️ and lots of ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
